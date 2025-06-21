@@ -17,6 +17,7 @@
     <PackageTags>WinForms; Reactive; DataBinding; MVVM; ReactiveProperty; ReactiveCollection; UI Binding; .NET; C#; Desktop; WindowsForms; TwoWayBinding; UI Synchronization; EventDriven; Observable</PackageTags>
     <PackageOutputPath>bin/nuget</PackageOutputPath>
     <PackageIcon>JoeDevSharp.WinForms.Extensions.Reactive.icon.png</PackageIcon>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
