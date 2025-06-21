@@ -1,11 +1,36 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>WinExe</OutputType>
+    <OutputType>Library</OutputType>
     <TargetFramework>net8.0-windows</TargetFramework>
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Winform Reactive Extention</Title>
+    <Authors>JoeDevSharp</Authors>
+    <Company>JoeDevSharp</Company>
+    <Description>JoeDevSharp.WinForms.Extensions.Reactive provides a simple yet powerful way to introduce reactive data binding into Windows Forms applications. Unlike traditional WinForms development where UI state management requires manual wiring of events and property updates, this framework automates synchronization between the UI and data models using reactive properties.</Description>
+    <PackageProjectUrl>https://github.com/JoeDevSharp/WinForms.Extensions.Reactive</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/JoeDevSharp/WinForms.Extensions.Reactive</RepositoryUrl>
+    <PackageTags>WinForms; Reactive; DataBinding; MVVM; ReactiveProperty; ReactiveCollection; UI Binding; .NET; C#; Desktop; WindowsForms; TwoWayBinding; UI Synchronization; EventDriven; Observable</PackageTags>
+    <PackageOutputPath>bin/nuget</PackageOutputPath>
+    <PackageIcon>JoeDevSharp.WinForms.Extensions.Reactive.icon.png</PackageIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="JoeDevSharp.WinForms.Extensions.Reactive.icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
