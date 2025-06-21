@@ -1,7 +1,3 @@
-Here’s the completed documentation including a **Quick Start** section to get developers running fast with your reactive WinForms extension:
-
----
-
 # WinForms Reactive Extension
 
 `JoeDevSharp.WinForms.Extensions.Reactive` provides a simple yet powerful way to introduce reactive data binding into Windows Forms applications. Unlike traditional WinForms development where UI state management requires manual wiring of events and property updates, this framework automates synchronization between the UI and data models using reactive properties.
